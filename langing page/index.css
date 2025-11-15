@@ -1,0 +1,56 @@
+ *{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url('../img/apple.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 5px;
+}
+h1{
+    color: #ffffff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 7%;
+    font-size: 60px;
+    margin-top: 8%;
+}
+h2{
+    color: #ffffff;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 7%;
+    font-size: 20px;
+    margin-top: 6%;
+
+}
+button{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 7%;
+    border: none;
+    height: 60px;
+    color: #ffffff;
+    width: 230px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #363636;
+    font-weight: bold;
+}
+.glow-btn {
+  background: #242424; 
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.glow-btn:hover {
+  box-shadow: 
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 40px #ffffff,
+    0 0 80px #ffffff;
+  transform: scale(1.05);
+}
